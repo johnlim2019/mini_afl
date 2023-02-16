@@ -19,7 +19,6 @@ int test_add(x,y)
   {
     return 1; 
   }
-  // assert(value == x+y);
   printf("SUM %d\n",value);
   return(0);
 }

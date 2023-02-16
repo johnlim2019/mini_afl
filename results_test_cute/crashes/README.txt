@@ -1,9 +1,9 @@
 Command line used to find this crash:
 
-/home/limjieshengubuntu/AFL/afl-fuzz -m 1000 -i ./test_seed -o ./results -- ./bin/add_afl_bin @@
+/home/limjieshengubuntu/AFL/afl-fuzz -i ./test_seed/test_cute -o ./results_test_cute -- ./bin/test_cute_bin @@
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
-memory limit. The limit used for this fuzzing session was 0.98 GB.
+memory limit. The limit used for this fuzzing session was 50.0 MB.
 
 Need a tool to minimize test cases before investigating the crashes or sending
 them to a vendor? Check out the afl-tmin that comes with the fuzzer!
