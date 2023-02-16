@@ -8,7 +8,7 @@ make
 Compiling code and running fuzzer on compiiled binary
 ```
 $HOME/AFL/afl-gcc path/to/your/source.c -o ./path/to/compile/binary
-$HOME/AFL/afl-fuzz -i path/to/input/seed/ -o /path/to/compiled/binary @@
+$HOME/AFL/afl-fuzz -i path/to/input/seed/folder -o /path/to/compiled/binary @@
 ```
 the @@ refers to the test_seed files in the test_seed folder
 
