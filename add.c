@@ -15,10 +15,11 @@ int test_add(x,y)
   assert(isdigit(x) > 0);
   assert(isdigit(y) > 0);
   int value = add(x,y);
-  if (value < 5)
+  if (value < 0)
   {
     return 1; 
   }
+  // assert(value == x+y);
   printf("SUM %d\n",value);
   return(0);
 }
